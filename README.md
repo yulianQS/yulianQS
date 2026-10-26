@@ -1,4 +1,8 @@
 <p align="center">
+  <strong>English</strong> · <a href="https://github.com/yulianQS/yulianQS/blob/main/README.zh-CN.md">简体中文</a>
+</p>
+
+<p align="center">
   <img src="assets/hero.svg" width="100%" alt="yulianQS — Robotics, Embedded Linux, Computer Vision" />
 </p>
 
