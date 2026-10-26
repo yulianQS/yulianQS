@@ -46,9 +46,9 @@ I work across embedded software, robot control, and vision applications, with an
 ## 03 / Featured Public Projects
 
 <p align="center">
-  <a href="https://github.com/yulianQS/px4-companion-control"><img src="assets/project-px4.svg" width="280" alt="PX4 Companion Control — open public repository" /></a>
-  <a href="https://github.com/yulianQS/QSflow"><img src="assets/project-qsflow.svg" width="280" alt="QSflow — open public repository" /></a>
-  <a href="https://github.com/yulianQS/ardupilot-flow-analyzer"><img src="assets/project-ardupilot.svg" width="280" alt="ArduPilot Flow Analyzer — open public repository" /></a>
+  <a href="https://github.com/yulianQS/px4-companion-control"><img src="assets/project-px4.svg" width="270" alt="PX4 Companion Control — open public repository" /></a>
+  <a href="https://github.com/yulianQS/QSflow"><img src="assets/project-qsflow.svg" width="270" alt="QSflow — open public repository" /></a>
+  <a href="https://github.com/yulianQS/ardupilot-flow-analyzer"><img src="assets/project-ardupilot.svg" width="270" alt="ArduPilot Flow Analyzer — open public repository" /></a>
 </p>
 
 > **PX4 validation:** Bench integration is documented; actual flight behavior remains under validation.
