@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">yulianQS</title>
+  <desc id="desc">Robotics, Embedded Linux, and Computer Vision. A dark navy banner with cyan circuit and navigation motifs.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#081321"/>
+      <stop offset="1" stop-color="#102b46"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#60a5fa"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="1198" height="298" rx="22" fill="url(#background)" stroke="#25425e" stroke-width="2"/>
+  <g fill="none" stroke="#315570" stroke-width="2">
+    <path d="M850 42h130l42 42h134M922 260h144l40-40h50M1050 42v35l55 55h51M875 260v-45l44-44"/>
+    <path d="M1160 159h-84M917 96h-58v-36"/>
+  </g>
+  <g fill="#22d3ee">
+    <circle cx="850" cy="42" r="4"/>
+    <circle cx="922" cy="260" r="4"/>
+    <circle cx="859" cy="60" r="4"/>
+  </g>
+  <g fill="none" stroke="#4386a6" stroke-width="2">
+    <circle cx="995" cy="150" r="72"/>
+    <circle cx="995" cy="150" r="54" stroke-dasharray="5 9"/>
+    <path d="M995 65v20m0 130v20M910 150h20m130 0h20"/>
+  </g>
+  <path d="m995 109 24 60-24-13-24 13z" fill="#22d3ee" fill-opacity="0.15" stroke="#67e8f9" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="54" y="54" width="54" height="5" rx="2.5" fill="url(#accent)"/>
+  <text x="54" y="151" fill="#f0f7ff" font-family="Segoe UI,Arial,sans-serif" font-size="78" font-weight="700" letter-spacing="-2">yulianQS</text>
+  <text x="58" y="209" fill="#b7d8ed" font-family="Segoe UI,Arial,sans-serif" font-size="30">Robotics · Embedded Linux · Computer Vision</text>
+  <path d="M56 255h710" stroke="#294760" stroke-width="2"/>
+  <path d="M56 255h142" stroke="url(#accent)" stroke-width="3"/>
+</svg>
