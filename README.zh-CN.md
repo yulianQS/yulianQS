@@ -3,14 +3,17 @@
 </p>
 
 <p align="center">
-  <img src="assets/hero.svg" width="100%" alt="yulianQS — 机器人、嵌入式 Linux、计算机视觉" />
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/hero.svg" />
+    <img src="assets/hero.gif" width="100%" alt="yulianQS — 机器人、嵌入式 Linux、计算机视觉" />
+  </picture>
 </p>
 
 # 嵌入式 Linux 与机器人软件开发者
 
-机器人 · 嵌入式 Linux · 计算机视觉
+**从感知到运动，连接嵌入式硬件、机器人与边缘视觉。**
 
-## 关于我
+## 01 / 关于我
 
 我的工程实践涉及嵌入式软件、机器人控制和视觉应用，关注如何在实际硬件上连接感知与运动执行。
 
@@ -19,7 +22,17 @@
 - **嵌入式 Linux：** 板端部署、交叉编译与软硬件协同开发。
 - **边缘视觉：** 模型转换、端侧推理与运动控制中的视觉反馈。
 
-## 技术栈
+## 02 / 技术栈
+
+<p align="center">
+  <img src="assets/stack-embedded.svg" width="420" alt="Embedded Systems: C/C++, STM32, ESP32, FreeRTOS" />
+  <img src="assets/stack-linux.svg" width="420" alt="Embedded Linux: RK3588, RK3506, Ubuntu, Buildroot" />
+  <img src="assets/stack-robotics.svg" width="420" alt="Robotics: ROS 2, Cartographer, Nav2, PX4, VIO" />
+  <img src="assets/stack-vision.svg" width="420" alt="Computer Vision: OpenCV, YOLO, ONNX, RKNN" />
+</p>
+
+<details>
+<summary>查看完整文字技术栈</summary>
 
 | 方向 | 在项目与工程实践中使用的技术 |
 | :--- | :--- |
@@ -28,7 +41,20 @@
 | **机器人** | ROS 2 Humble、TF、里程计 · Cartographer、Nav2、MPPI · PX4、MAVLink、Offboard、VIO |
 | **计算机视觉** | Python、OpenCV、YOLO · ONNX、RKNN、NPU 推理 |
 
-## 精选公开项目
+</details>
+
+## 03 / 精选公开项目
+
+<p align="center">
+  <a href="https://github.com/yulianQS/px4-companion-control"><img src="assets/project-px4.svg" width="280" alt="PX4 Companion Control — open public repository" /></a>
+  <a href="https://github.com/yulianQS/QSflow"><img src="assets/project-qsflow.svg" width="280" alt="QSflow — open public repository" /></a>
+  <a href="https://github.com/yulianQS/ardupilot-flow-analyzer"><img src="assets/project-ardupilot.svg" width="280" alt="ArduPilot Flow Analyzer — open public repository" /></a>
+</p>
+
+> **PX4 验证状态：** 已记录台架集成结果，实际飞行行为仍需验证。
+
+<details>
+<summary>展开项目说明与验证状态</summary>
 
 ### 01 · [PX4 伴随计算机控制](https://github.com/yulianQS/px4-companion-control)
 
@@ -60,7 +86,9 @@
 
 > **工程重点：** 飞控只读通信、后台解析，以及对数据缺失或证据不足情况的明确处理。
 
-## 工程实践
+</details>
+
+## 04 / 工程实践
 
 - **自主导航机器人：** RK3588 搭配 ROS 2 Humble、Cartographer 与 Nav2 MPPI，通过分层控制架构连接导航、STM32 底盘控制器与 ESP32 通信模块。
 - **视觉引导拼图：** 使用 Python 与 OpenCV 提取轮廓、进行几何匹配，并连接路径规划与电机执行流程。
